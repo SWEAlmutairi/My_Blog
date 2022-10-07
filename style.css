@@ -90,7 +90,6 @@ h5 {
     color: var(--color4);
     font-family: 'Roboto Thin';
 }
-
 .cards {
     display: flex;
     flex-direction: column;
@@ -188,7 +187,6 @@ footer small {
     left: 10%;
     grid-area: bott;
 }
-
 @media(min-width: 580px) {
     footer small {
         position: relative;
