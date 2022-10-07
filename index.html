@@ -2,9 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog Home Page</title>
 </head>
 <body>
+<!--  header-->
+<header>
+    <h1><a href="index.html">Ahmed's Blog</a></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="#posts">Posts</a></li>
+            <li>
+                <a href="#" class="fa fa-twitter"></a>
+            </li>
+            <li>
+                <a href="#" class="fa fa-linkedin"></a>
+            </li>
+            <li>
+                <a href="#" class="fa fa-github"></a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<!--  body -->
+<section class="intro">
+    <h5>hi there, my name is</h5>
+    <h2>Ahmed Almutairi<br>I'm a junior web-developer</h2>
+    <h5>Welcome to my personal blog</h5>
+</section>
+<section id="posts">
+    <div class="divider">
+    </div>
+    <h2>Posts:
+    </h2>
+    <div class="cards">
+        <div class="card">
+            <figure>
+                <p>
+                    Software Engineering Ethics
+                </p>
+                <img src="./software.jpg" alt="nature" height="150px" width="200px">
+                <figcaption>
+                    <button>Read it</button>
+                </figcaption>
 
+            </figure>
+        </div>
+
+        <div class="card">
+            <figure>
+                <a href="#">
+                    <p>
+                        Data Structure In CS
+                    </p>
+                    <img src="./software.jpg" alt="nature" height="150px" width="200px">
+                    <figcaption>
+                        <button>Read it</button>
+                    </figcaption>
+                </a>
+            </figure>
+        </div>
+    </div>
+</section>
+<!-- contact -->
+<section class="contact">
+    <p>I'm always interested in hearing about anything you want.</p>
+    <button><a href="mailto:myemail@emil.sth">Email</a> </button>
+</section>
+<div class="divider">
+</div>
+<!-- footer -->
+<footer>
+    <h3>Ahmed's blog · web-developer</h3>
+    <ul>
+        <li>
+            <a href="#" class="fa fa-twitter"></a>
+        </li>
+        <li>
+            <a href="#" class="fa fa-linkedin"></a>
+        </li>
+        <li>
+            <a href="#" class="fa fa-github"></a>
+        </li>
+    </ul>
+    <small>© 2022 Almutairi Ahmed. All rights reserved.</small>
+</footer>
+<div class="divider">
+</div>
 </body>
 </html>
