@@ -1,0 +1,37 @@
+/* footer */
+footer {
+    height: 200px;
+    font-family: "Open Sans";
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas:
+        "null top top top empt"
+        "null mid mid mid empt"
+        "null bott bott bott empt";
+}
+footer h3 {
+    font-size: 2rem;
+    margin: 0;
+    grid-area: top;
+}
+footer ul {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    grid-area: mid;
+    display: flex;
+    justify-content: space-between;
+}
+footer small {
+    font-size: .8rem;
+    position: relative;
+    left: 10%;
+    grid-area: bott;
+}
+@media(min-width: 580px) {
+    footer small {
+        position: relative;
+        left: 25%;
+    }
+}
